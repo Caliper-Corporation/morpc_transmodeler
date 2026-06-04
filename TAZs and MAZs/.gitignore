@@ -1,3 +1,4 @@
 # Large GIS / TransCAD binaries removed from version control.
 # Files remain on disk locally but are not tracked.
-TAZs and MAZs/
+*
+!.gitignore
