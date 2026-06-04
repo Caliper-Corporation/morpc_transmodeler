@@ -1,0 +1,10 @@
+
+332,codepage=65001
+"ID",I,1,4,0,12,0,,"","",,"Sum",
+"SynchroNode",I,5,4,0,8,0,,"","",,"Sum",
+"Signalized",I,9,4,0,8,0,,"","",,"Sum",
+"Dis2Signal",R,13,8,0,10,2,,"","",,"Sum",
+"PlanningNodeID",I,21,4,0,8,0,,"","",,"Sum",
+"WRA_NOTES",C,25,150,0,150,0,,"","",,"Sum",
+"WRA_FIXED",C,175,150,0,150,0,,"","",,"Copy",
+"SynchroDistance",R,325,8,0,10,2,,"","",,"Sum",

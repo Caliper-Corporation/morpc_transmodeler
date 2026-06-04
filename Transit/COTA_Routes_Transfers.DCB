@@ -1,0 +1,6 @@
+
+20,codepage=65001
+"From",C,1,8,0,8,0,,"","GTFS From Stop",,"Copy",
+"To",C,9,8,0,8,0,,"","GTFS From Stop",,"Copy",
+"Type",S,17,2,0,5,0,,"","Transfer Type|0 - Recomended transfer point|1 - Timed transfer point, departing vehicle will wait|2 - Transfer requires minimum specified time|3 - Transfer not permitted",,"Sum",
+"Min Time",S,19,2,0,5,0,,"","Minimum time required for a transfer",,"Sum",

@@ -1,0 +1,55 @@
+Travel Time Table, StartTime=06:00:00, IntervalLength=900, TimeUnit=s, Periods=12, FirstValueField=AB_Time_0600,AB_Vol_0600
+212,codepage=65001
+"ID",I,1,4,0,8,0,,,"ID",,Sum,,0x0004
+"AB_Vol_0600",I,5,4,0,8,0,,,"Volume beginning at 06:00:00",,Sum,,0x0004
+"BA_Vol_0600",I,9,4,0,8,0,,,"Volume beginning at 06:00:00",,Sum,,0x0004
+"AB_Vol_0615",I,13,4,0,8,0,,,"Volume beginning at 06:15:00",,Sum,,0x0004
+"BA_Vol_0615",I,17,4,0,8,0,,,"Volume beginning at 06:15:00",,Sum,,0x0004
+"AB_Vol_0630",I,21,4,0,8,0,,,"Volume beginning at 06:30:00",,Sum,,0x0004
+"BA_Vol_0630",I,25,4,0,8,0,,,"Volume beginning at 06:30:00",,Sum,,0x0004
+"AB_Vol_0645",I,29,4,0,8,0,,,"Volume beginning at 06:45:00",,Sum,,0x0004
+"BA_Vol_0645",I,33,4,0,8,0,,,"Volume beginning at 06:45:00",,Sum,,0x0004
+"AB_Vol_0700",I,37,4,0,8,0,,,"Volume beginning at 07:00:00",,Sum,,0x0004
+"BA_Vol_0700",I,41,4,0,8,0,,,"Volume beginning at 07:00:00",,Sum,,0x0004
+"AB_Vol_0715",I,45,4,0,8,0,,,"Volume beginning at 07:15:00",,Sum,,0x0004
+"BA_Vol_0715",I,49,4,0,8,0,,,"Volume beginning at 07:15:00",,Sum,,0x0004
+"AB_Vol_0730",I,53,4,0,8,0,,,"Volume beginning at 07:30:00",,Sum,,0x0004
+"BA_Vol_0730",I,57,4,0,8,0,,,"Volume beginning at 07:30:00",,Sum,,0x0004
+"AB_Vol_0745",I,61,4,0,8,0,,,"Volume beginning at 07:45:00",,Sum,,0x0004
+"BA_Vol_0745",I,65,4,0,8,0,,,"Volume beginning at 07:45:00",,Sum,,0x0004
+"AB_Vol_0800",I,69,4,0,8,0,,,"Volume beginning at 08:00:00",,Sum,,0x0004
+"BA_Vol_0800",I,73,4,0,8,0,,,"Volume beginning at 08:00:00",,Sum,,0x0004
+"AB_Vol_0815",I,77,4,0,8,0,,,"Volume beginning at 08:15:00",,Sum,,0x0004
+"BA_Vol_0815",I,81,4,0,8,0,,,"Volume beginning at 08:15:00",,Sum,,0x0004
+"AB_Vol_0830",I,85,4,0,8,0,,,"Volume beginning at 08:30:00",,Sum,,0x0004
+"BA_Vol_0830",I,89,4,0,8,0,,,"Volume beginning at 08:30:00",,Sum,,0x0004
+"AB_Vol_0845",I,93,4,0,8,0,,,"Volume beginning at 08:45:00",,Sum,,0x0004
+"BA_Vol_0845",I,97,4,0,8,0,,,"Volume beginning at 08:45:00",,Sum,,0x0004
+"AB_Vol",I,101,4,0,8,0,,,"Total volume",,Sum,,0x0004
+"BA_Vol",I,105,4,0,8,0,,,"Total volume",,Sum,,0x0004
+"AB_Time_0600",F,109,4,0,8,1,,,"In seconds, for period beginning at 06:00:00",,Sum,,0x0005
+"BA_Time_0600",F,113,4,0,8,1,,,"In seconds, for period beginning at 06:00:00",,Sum,,0x0005
+"AB_Time_0615",F,117,4,0,8,1,,,"In seconds, for period beginning at 06:15:00",,Sum,,0x0005
+"BA_Time_0615",F,121,4,0,8,1,,,"In seconds, for period beginning at 06:15:00",,Sum,,0x0005
+"AB_Time_0630",F,125,4,0,8,1,,,"In seconds, for period beginning at 06:30:00",,Sum,,0x0005
+"BA_Time_0630",F,129,4,0,8,1,,,"In seconds, for period beginning at 06:30:00",,Sum,,0x0005
+"AB_Time_0645",F,133,4,0,8,1,,,"In seconds, for period beginning at 06:45:00",,Sum,,0x0005
+"BA_Time_0645",F,137,4,0,8,1,,,"In seconds, for period beginning at 06:45:00",,Sum,,0x0005
+"AB_Time_0700",F,141,4,0,8,1,,,"In seconds, for period beginning at 07:00:00",,Sum,,0x0005
+"BA_Time_0700",F,145,4,0,8,1,,,"In seconds, for period beginning at 07:00:00",,Sum,,0x0005
+"AB_Time_0715",F,149,4,0,8,1,,,"In seconds, for period beginning at 07:15:00",,Sum,,0x0005
+"BA_Time_0715",F,153,4,0,8,1,,,"In seconds, for period beginning at 07:15:00",,Sum,,0x0005
+"AB_Time_0730",F,157,4,0,8,1,,,"In seconds, for period beginning at 07:30:00",,Sum,,0x0005
+"BA_Time_0730",F,161,4,0,8,1,,,"In seconds, for period beginning at 07:30:00",,Sum,,0x0005
+"AB_Time_0745",F,165,4,0,8,1,,,"In seconds, for period beginning at 07:45:00",,Sum,,0x0005
+"BA_Time_0745",F,169,4,0,8,1,,,"In seconds, for period beginning at 07:45:00",,Sum,,0x0005
+"AB_Time_0800",F,173,4,0,8,1,,,"In seconds, for period beginning at 08:00:00",,Sum,,0x0005
+"BA_Time_0800",F,177,4,0,8,1,,,"In seconds, for period beginning at 08:00:00",,Sum,,0x0005
+"AB_Time_0815",F,181,4,0,8,1,,,"In seconds, for period beginning at 08:15:00",,Sum,,0x0005
+"BA_Time_0815",F,185,4,0,8,1,,,"In seconds, for period beginning at 08:15:00",,Sum,,0x0005
+"AB_Time_0830",F,189,4,0,8,1,,,"In seconds, for period beginning at 08:30:00",,Sum,,0x0005
+"BA_Time_0830",F,193,4,0,8,1,,,"In seconds, for period beginning at 08:30:00",,Sum,,0x0005
+"AB_Time_0845",F,197,4,0,8,1,,,"In seconds, for period beginning at 08:45:00",,Sum,,0x0005
+"BA_Time_0845",F,201,4,0,8,1,,,"In seconds, for period beginning at 08:45:00",,Sum,,0x0005
+"AB_Time",F,205,4,0,8,1,,,"Summary average travel time in seconds",,Sum,,0x0005
+"BA_Time",F,209,4,0,8,1,,,"Summary average travel time in seconds",,Sum,,0x0005

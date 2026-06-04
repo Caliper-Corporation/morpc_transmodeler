@@ -1,0 +1,16 @@
+
+49,codepage=65001
+"ID",I,1,4,0,4,0,,"","",,"Sum",
+"X",R,5,8,0,10,2,,"","Raw X Coordinate",,"Sum",
+"Y",R,13,8,0,10,2,,"","Raw Y Coordinate",,"Sum",
+"Zone Centroid",C,21,1,0,1,0,,"","Whether the node is a centroid of a zone",,"Copy",
+"Centroid",S,22,1,0,4,0,,"","",,"Sum",
+"Unconnected",C,23,1,0,1,0,,"","Whether the node is unconnected to any link",,"Copy",
+"Stop",C,24,1,0,1,0,,"","Whether the node is a transit stop",,"Copy",
+"Duplicate",C,25,1,0,1,0,,"","Whether the node shares its coordinate with other nodes",,"Copy",
+"SNAP",I,26,4,0,10,0,,"","",,"Sum",
+"PNR",I,30,4,0,10,0,,"","",,"Sum",
+"PNR_F",I,34,4,0,10,0,,"","",,"Sum",
+"GEOMETRYSOURCE",I,38,4,0,10,0,,"","",,"Sum",
+"TRANSTOP",I,42,4,0,10,0,,"","",,"Sum",
+"SignalizedJunction",I,46,4,0,10,0,,"","",,"Sum",

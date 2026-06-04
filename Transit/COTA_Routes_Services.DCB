@@ -1,0 +1,15 @@
+
+34,codepage=65001
+"Service",C,1,7,0,7,0,,"","Unique ID identifying a set of dates when service is available",,"Copy",
+"#Trips",I,8,4,0,10,0,,"","Number of scheduled trips",,"Sum",
+"Start Date",I,12,4,0,10,0,,"","Starting date for the service (YYYYMMDD)",,"Sum",
+"End Date",I,16,4,0,10,0,,"","Ending date for the service (YYYYMMDD)",,"Sum",
+"Monday",C,20,1,0,1,0,,"","Whether service is valid for all Mondays",,"Copy",
+"Tuesday",C,21,1,0,1,0,,"","Whether service is valid for all Tuesdays",,"Copy",
+"Wednesday",C,22,1,0,1,0,,"","Whether service is valid for all Wednesdays",,"Copy",
+"Thursday",C,23,1,0,1,0,,"","Whether service is valid for all Thursdays",,"Copy",
+"Friday",C,24,1,0,1,0,,"","Whether service is valid for all Fridays",,"Copy",
+"Saturday",C,25,1,0,1,0,,"","Whether service is valid for all Saturdays",,"Copy",
+"Sunday",C,26,1,0,1,0,,"","Whether service is valid for all Sundays",,"Copy",
+"#Additions",I,27,4,0,10,0,,"","Number of exceptions where this service is used",,"Sum",
+"#Deletions",I,31,4,0,10,0,,"","Number of exceptions where this service is omitted",,"Sum",

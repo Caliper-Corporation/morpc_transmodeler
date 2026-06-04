@@ -1,0 +1,16 @@
+MOR21upd2024_v3.6
+50,codepage=65001
+"ID",I,1,4,0,10,0,,"","",,"Sum",
+"Elevation",F,5,4,0,10,2,,"","",,"Sum",
+"X",R,9,8,0,10,2,,"","Raw X Coordinate",,"Sum",
+"Y",R,17,8,0,10,2,,"","Raw Y Coordinate",,"Sum",
+"Zone Centroid",C,25,1,0,1,0,,"","Whether the node is a centroid of a zone",,"Copy",
+"Centroid",S,26,2,0,4,0,,"","",,"Sum",
+"Unconnected",C,28,1,0,1,0,,"","Whether the node is unconnected to any link",,"Copy",
+"Stop",C,29,1,0,1,0,,"","Whether the node is a transit stop",,"Copy",
+"Duplicate",C,30,1,0,1,0,,"","Whether the node shares its coordinate with other nodes",,"Copy",
+"SNAP",I,31,4,0,10,0,,"","",,"Sum",
+"PNR",I,35,4,0,10,0,,"","",,"Sum",
+"PNR_F",I,39,4,0,10,0,,"","",,"Sum",
+"GEOMETRYSOURCE",I,43,4,0,10,0,,"","",,"Sum",
+"TRANSTOP",I,47,4,0,10,0,,"","",,"Sum",

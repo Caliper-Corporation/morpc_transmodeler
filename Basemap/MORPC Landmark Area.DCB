@@ -1,0 +1,8 @@
+
+108,codepage=65001
+"ID",I,1,4,0,4,0,,"","",,"Sum",
+"Coloring",R,5,8,0,12,3,,"","Map Coloring|Caliper",,"Sum",
+"Name",C,13,50,0,50,0,,"","Landmark Name|2014 Census TIGER/Line",,"Copy",
+"MTFCC",C,63,5,0,5,0,,"","MAF/TIGER Feature Class Code|2014 Census TIGER/Line",,"Copy",
+"Type",C,68,39,0,39,0,,"","Landmark Type|2014 Census TIGER/Line",,"Copy",
+"CCSTYLE",S,107,2,0,3,0,,"","Display Style|Caliper",,"Sum",

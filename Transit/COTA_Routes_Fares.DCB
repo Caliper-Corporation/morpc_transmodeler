@@ -1,0 +1,12 @@
+
+23,codepage=65001
+"Fare",I,1,4,0,10,0,,"","Unique ID identifying a fare class",,"Sum",
+"Route",I,5,4,0,10,0,,"","GTFS Route ID",,"Sum",
+"Origin Zone",C,9,1,0,1,0,,"","Origin Zone ID",,"Copy",
+"Destination Zone",C,10,1,0,1,0,,"","Destination Zone ID",,"Copy",
+"Intermediate Zone",C,11,1,0,1,0,,"","Intermediate Zone ID",,"Copy",
+"Price",F,12,4,0,8,2,,"","Fare ammount",,"Sum",
+"Currency",C,16,3,0,3,0,,"","Fare currency units",,"Copy",
+"Before/Onboard",C,19,1,0,1,0,,"","Whether the fare must be paid beforehand or onboard",,"Copy",
+"Transfers",S,20,2,0,5,0,,"","Number of permitted transfers (Null = unlimited)",,"Sum",
+"Transfer Duration",S,22,2,0,5,0,,"","Length of time in seconds before a transfer expires (Null = unlimited)",,"Sum",

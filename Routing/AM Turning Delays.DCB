@@ -1,0 +1,21 @@
+Turning Movement Table, StartTime=06:00:00, IntervalLength=900, TimeUnit=s, Periods=12, FirstValueField=Delay_0600
+76,codepage=65001
+"FromLink",I,1,4,0,10,0,,,"Upstream link ID",,Sum,,0x0004
+"Node",I,5,4,0,10,0,,,"Node ID",,Sum,,0x0004
+"ToLink",I,9,4,0,10,0,,,"Downstream link ID",,Sum,,0x0004
+"Dir",C,13,4,0,4,0,,,"Approach direction",,Sum,,0x0007
+"Type",C,17,4,0,4,0,,,"Turn movement type",,Sum,,0x0007
+"Facility",I,21,4,0,10,0,,,"Roundabout or Weaving Section node ID",,Sum,,0x0004
+"Delay_0600",F,25,4,0,7,1,,,"Average turning delay in seconds beginning at 06:00:00",,Sum,,0x0005
+"Delay_0615",F,29,4,0,7,1,,,"Average turning delay in seconds beginning at 06:15:00",,Sum,,0x0005
+"Delay_0630",F,33,4,0,7,1,,,"Average turning delay in seconds beginning at 06:30:00",,Sum,,0x0005
+"Delay_0645",F,37,4,0,7,1,,,"Average turning delay in seconds beginning at 06:45:00",,Sum,,0x0005
+"Delay_0700",F,41,4,0,7,1,,,"Average turning delay in seconds beginning at 07:00:00",,Sum,,0x0005
+"Delay_0715",F,45,4,0,7,1,,,"Average turning delay in seconds beginning at 07:15:00",,Sum,,0x0005
+"Delay_0730",F,49,4,0,7,1,,,"Average turning delay in seconds beginning at 07:30:00",,Sum,,0x0005
+"Delay_0745",F,53,4,0,7,1,,,"Average turning delay in seconds beginning at 07:45:00",,Sum,,0x0005
+"Delay_0800",F,57,4,0,7,1,,,"Average turning delay in seconds beginning at 08:00:00",,Sum,,0x0005
+"Delay_0815",F,61,4,0,7,1,,,"Average turning delay in seconds beginning at 08:15:00",,Sum,,0x0005
+"Delay_0830",F,65,4,0,7,1,,,"Average turning delay in seconds beginning at 08:30:00",,Sum,,0x0005
+"Delay_0845",F,69,4,0,7,1,,,"Average turning delay in seconds beginning at 08:45:00",,Sum,,0x0005
+"Delay",F,73,4,0,7,1,,,"Summary average turning delay in seconds",,Sum,,0x0005

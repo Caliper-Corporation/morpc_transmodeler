@@ -1,0 +1,5 @@
+Persistent Rivers and Streams (v2015)
+52,codepage=65001
+"Name",C,1,30,0,30,0,,"Copy","River/Stream Name|2014 Census TIGER/Line",,"Copy",
+"Type",C,31,20,0,20,0,,"Copy","River/Stream Type|2014 Census TIGER/Line",,"Copy",
+"ccStyle",S,51,2,0,3,0,,"Copy","Display Style|Caliper",,"Copy",

@@ -1,0 +1,12 @@
+
+40,codepage=65001
+"ID",I,1,4,0,4,0,,"","",,"Sum",
+"CountID",I,5,4,0,10,0,,"","Count Station ID as tagged by the Load Counts macro|In this case, it's the link ID of the cube link layer.",,"Sum",
+"AB_CountAM",I,9,4,0,8,0,,"","",,"Sum",
+"BA_CountAM",I,13,4,0,8,0,,"","",,"Sum",
+"AB_CountMD",I,17,4,0,8,0,,"","",,"Sum",
+"BA_CountMD",I,21,4,0,8,0,,"","",,"Sum",
+"AB_CountPM",I,25,4,0,8,0,,"","",,"Sum",
+"BA_CountPM",I,29,4,0,8,0,,"","",,"Sum",
+"AB_CountNT",I,33,4,0,8,0,,"","",,"Sum",
+"BA_CountNT",I,37,4,0,8,0,,"","",,"Sum",

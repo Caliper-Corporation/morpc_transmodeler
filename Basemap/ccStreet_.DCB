@@ -1,0 +1,4 @@
+~2py1042
+5,codepage=65001
+"TNID",I,1,4,0,10,0,,"Copy","TIGER/Line Permanent Node ID|2024 Census TIGER/Line",,"Copy",
+"Network",C,5,1,0,1,0,,"Copy","Network|1 - Primary Roads|2 - Precise Roads|3 - Roads","L","Copy",

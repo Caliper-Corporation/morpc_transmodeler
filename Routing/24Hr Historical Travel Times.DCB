@@ -1,0 +1,391 @@
+Travel Time Table, StartTime=00:00:00, IntervalLength=900, TimeUnit=s, Periods=96, FirstValueField=AB_Time_0000,AB_Vol_0000
+1556,codepage=65001
+"ID",I,1,4,0,8,0,,,"ID",,Sum,,0x0004
+"AB_Vol_0000",I,5,4,0,8,0,,,"Volume beginning at 00:00:00",,Sum,,0x0004
+"BA_Vol_0000",I,9,4,0,8,0,,,"Volume beginning at 00:00:00",,Sum,,0x0004
+"AB_Vol_0015",I,13,4,0,8,0,,,"Volume beginning at 00:15:00",,Sum,,0x0004
+"BA_Vol_0015",I,17,4,0,8,0,,,"Volume beginning at 00:15:00",,Sum,,0x0004
+"AB_Vol_0030",I,21,4,0,8,0,,,"Volume beginning at 00:30:00",,Sum,,0x0004
+"BA_Vol_0030",I,25,4,0,8,0,,,"Volume beginning at 00:30:00",,Sum,,0x0004
+"AB_Vol_0045",I,29,4,0,8,0,,,"Volume beginning at 00:45:00",,Sum,,0x0004
+"BA_Vol_0045",I,33,4,0,8,0,,,"Volume beginning at 00:45:00",,Sum,,0x0004
+"AB_Vol_0100",I,37,4,0,8,0,,,"Volume beginning at 01:00:00",,Sum,,0x0004
+"BA_Vol_0100",I,41,4,0,8,0,,,"Volume beginning at 01:00:00",,Sum,,0x0004
+"AB_Vol_0115",I,45,4,0,8,0,,,"Volume beginning at 01:15:00",,Sum,,0x0004
+"BA_Vol_0115",I,49,4,0,8,0,,,"Volume beginning at 01:15:00",,Sum,,0x0004
+"AB_Vol_0130",I,53,4,0,8,0,,,"Volume beginning at 01:30:00",,Sum,,0x0004
+"BA_Vol_0130",I,57,4,0,8,0,,,"Volume beginning at 01:30:00",,Sum,,0x0004
+"AB_Vol_0145",I,61,4,0,8,0,,,"Volume beginning at 01:45:00",,Sum,,0x0004
+"BA_Vol_0145",I,65,4,0,8,0,,,"Volume beginning at 01:45:00",,Sum,,0x0004
+"AB_Vol_0200",I,69,4,0,8,0,,,"Volume beginning at 02:00:00",,Sum,,0x0004
+"BA_Vol_0200",I,73,4,0,8,0,,,"Volume beginning at 02:00:00",,Sum,,0x0004
+"AB_Vol_0215",I,77,4,0,8,0,,,"Volume beginning at 02:15:00",,Sum,,0x0004
+"BA_Vol_0215",I,81,4,0,8,0,,,"Volume beginning at 02:15:00",,Sum,,0x0004
+"AB_Vol_0230",I,85,4,0,8,0,,,"Volume beginning at 02:30:00",,Sum,,0x0004
+"BA_Vol_0230",I,89,4,0,8,0,,,"Volume beginning at 02:30:00",,Sum,,0x0004
+"AB_Vol_0245",I,93,4,0,8,0,,,"Volume beginning at 02:45:00",,Sum,,0x0004
+"BA_Vol_0245",I,97,4,0,8,0,,,"Volume beginning at 02:45:00",,Sum,,0x0004
+"AB_Vol_0300",I,101,4,0,8,0,,,"Volume beginning at 03:00:00",,Sum,,0x0004
+"BA_Vol_0300",I,105,4,0,8,0,,,"Volume beginning at 03:00:00",,Sum,,0x0004
+"AB_Vol_0315",I,109,4,0,8,0,,,"Volume beginning at 03:15:00",,Sum,,0x0004
+"BA_Vol_0315",I,113,4,0,8,0,,,"Volume beginning at 03:15:00",,Sum,,0x0004
+"AB_Vol_0330",I,117,4,0,8,0,,,"Volume beginning at 03:30:00",,Sum,,0x0004
+"BA_Vol_0330",I,121,4,0,8,0,,,"Volume beginning at 03:30:00",,Sum,,0x0004
+"AB_Vol_0345",I,125,4,0,8,0,,,"Volume beginning at 03:45:00",,Sum,,0x0004
+"BA_Vol_0345",I,129,4,0,8,0,,,"Volume beginning at 03:45:00",,Sum,,0x0004
+"AB_Vol_0400",I,133,4,0,8,0,,,"Volume beginning at 04:00:00",,Sum,,0x0004
+"BA_Vol_0400",I,137,4,0,8,0,,,"Volume beginning at 04:00:00",,Sum,,0x0004
+"AB_Vol_0415",I,141,4,0,8,0,,,"Volume beginning at 04:15:00",,Sum,,0x0004
+"BA_Vol_0415",I,145,4,0,8,0,,,"Volume beginning at 04:15:00",,Sum,,0x0004
+"AB_Vol_0430",I,149,4,0,8,0,,,"Volume beginning at 04:30:00",,Sum,,0x0004
+"BA_Vol_0430",I,153,4,0,8,0,,,"Volume beginning at 04:30:00",,Sum,,0x0004
+"AB_Vol_0445",I,157,4,0,8,0,,,"Volume beginning at 04:45:00",,Sum,,0x0004
+"BA_Vol_0445",I,161,4,0,8,0,,,"Volume beginning at 04:45:00",,Sum,,0x0004
+"AB_Vol_0500",I,165,4,0,8,0,,,"Volume beginning at 05:00:00",,Sum,,0x0004
+"BA_Vol_0500",I,169,4,0,8,0,,,"Volume beginning at 05:00:00",,Sum,,0x0004
+"AB_Vol_0515",I,173,4,0,8,0,,,"Volume beginning at 05:15:00",,Sum,,0x0004
+"BA_Vol_0515",I,177,4,0,8,0,,,"Volume beginning at 05:15:00",,Sum,,0x0004
+"AB_Vol_0530",I,181,4,0,8,0,,,"Volume beginning at 05:30:00",,Sum,,0x0004
+"BA_Vol_0530",I,185,4,0,8,0,,,"Volume beginning at 05:30:00",,Sum,,0x0004
+"AB_Vol_0545",I,189,4,0,8,0,,,"Volume beginning at 05:45:00",,Sum,,0x0004
+"BA_Vol_0545",I,193,4,0,8,0,,,"Volume beginning at 05:45:00",,Sum,,0x0004
+"AB_Vol_0600",I,197,4,0,8,0,,,"Volume beginning at 06:00:00",,Sum,,0x0004
+"BA_Vol_0600",I,201,4,0,8,0,,,"Volume beginning at 06:00:00",,Sum,,0x0004
+"AB_Vol_0615",I,205,4,0,8,0,,,"Volume beginning at 06:15:00",,Sum,,0x0004
+"BA_Vol_0615",I,209,4,0,8,0,,,"Volume beginning at 06:15:00",,Sum,,0x0004
+"AB_Vol_0630",I,213,4,0,8,0,,,"Volume beginning at 06:30:00",,Sum,,0x0004
+"BA_Vol_0630",I,217,4,0,8,0,,,"Volume beginning at 06:30:00",,Sum,,0x0004
+"AB_Vol_0645",I,221,4,0,8,0,,,"Volume beginning at 06:45:00",,Sum,,0x0004
+"BA_Vol_0645",I,225,4,0,8,0,,,"Volume beginning at 06:45:00",,Sum,,0x0004
+"AB_Vol_0700",I,229,4,0,8,0,,,"Volume beginning at 07:00:00",,Sum,,0x0004
+"BA_Vol_0700",I,233,4,0,8,0,,,"Volume beginning at 07:00:00",,Sum,,0x0004
+"AB_Vol_0715",I,237,4,0,8,0,,,"Volume beginning at 07:15:00",,Sum,,0x0004
+"BA_Vol_0715",I,241,4,0,8,0,,,"Volume beginning at 07:15:00",,Sum,,0x0004
+"AB_Vol_0730",I,245,4,0,8,0,,,"Volume beginning at 07:30:00",,Sum,,0x0004
+"BA_Vol_0730",I,249,4,0,8,0,,,"Volume beginning at 07:30:00",,Sum,,0x0004
+"AB_Vol_0745",I,253,4,0,8,0,,,"Volume beginning at 07:45:00",,Sum,,0x0004
+"BA_Vol_0745",I,257,4,0,8,0,,,"Volume beginning at 07:45:00",,Sum,,0x0004
+"AB_Vol_0800",I,261,4,0,8,0,,,"Volume beginning at 08:00:00",,Sum,,0x0004
+"BA_Vol_0800",I,265,4,0,8,0,,,"Volume beginning at 08:00:00",,Sum,,0x0004
+"AB_Vol_0815",I,269,4,0,8,0,,,"Volume beginning at 08:15:00",,Sum,,0x0004
+"BA_Vol_0815",I,273,4,0,8,0,,,"Volume beginning at 08:15:00",,Sum,,0x0004
+"AB_Vol_0830",I,277,4,0,8,0,,,"Volume beginning at 08:30:00",,Sum,,0x0004
+"BA_Vol_0830",I,281,4,0,8,0,,,"Volume beginning at 08:30:00",,Sum,,0x0004
+"AB_Vol_0845",I,285,4,0,8,0,,,"Volume beginning at 08:45:00",,Sum,,0x0004
+"BA_Vol_0845",I,289,4,0,8,0,,,"Volume beginning at 08:45:00",,Sum,,0x0004
+"AB_Vol_0900",I,293,4,0,8,0,,,"Volume beginning at 09:00:00",,Sum,,0x0004
+"BA_Vol_0900",I,297,4,0,8,0,,,"Volume beginning at 09:00:00",,Sum,,0x0004
+"AB_Vol_0915",I,301,4,0,8,0,,,"Volume beginning at 09:15:00",,Sum,,0x0004
+"BA_Vol_0915",I,305,4,0,8,0,,,"Volume beginning at 09:15:00",,Sum,,0x0004
+"AB_Vol_0930",I,309,4,0,8,0,,,"Volume beginning at 09:30:00",,Sum,,0x0004
+"BA_Vol_0930",I,313,4,0,8,0,,,"Volume beginning at 09:30:00",,Sum,,0x0004
+"AB_Vol_0945",I,317,4,0,8,0,,,"Volume beginning at 09:45:00",,Sum,,0x0004
+"BA_Vol_0945",I,321,4,0,8,0,,,"Volume beginning at 09:45:00",,Sum,,0x0004
+"AB_Vol_1000",I,325,4,0,8,0,,,"Volume beginning at 10:00:00",,Sum,,0x0004
+"BA_Vol_1000",I,329,4,0,8,0,,,"Volume beginning at 10:00:00",,Sum,,0x0004
+"AB_Vol_1015",I,333,4,0,8,0,,,"Volume beginning at 10:15:00",,Sum,,0x0004
+"BA_Vol_1015",I,337,4,0,8,0,,,"Volume beginning at 10:15:00",,Sum,,0x0004
+"AB_Vol_1030",I,341,4,0,8,0,,,"Volume beginning at 10:30:00",,Sum,,0x0004
+"BA_Vol_1030",I,345,4,0,8,0,,,"Volume beginning at 10:30:00",,Sum,,0x0004
+"AB_Vol_1045",I,349,4,0,8,0,,,"Volume beginning at 10:45:00",,Sum,,0x0004
+"BA_Vol_1045",I,353,4,0,8,0,,,"Volume beginning at 10:45:00",,Sum,,0x0004
+"AB_Vol_1100",I,357,4,0,8,0,,,"Volume beginning at 11:00:00",,Sum,,0x0004
+"BA_Vol_1100",I,361,4,0,8,0,,,"Volume beginning at 11:00:00",,Sum,,0x0004
+"AB_Vol_1115",I,365,4,0,8,0,,,"Volume beginning at 11:15:00",,Sum,,0x0004
+"BA_Vol_1115",I,369,4,0,8,0,,,"Volume beginning at 11:15:00",,Sum,,0x0004
+"AB_Vol_1130",I,373,4,0,8,0,,,"Volume beginning at 11:30:00",,Sum,,0x0004
+"BA_Vol_1130",I,377,4,0,8,0,,,"Volume beginning at 11:30:00",,Sum,,0x0004
+"AB_Vol_1145",I,381,4,0,8,0,,,"Volume beginning at 11:45:00",,Sum,,0x0004
+"BA_Vol_1145",I,385,4,0,8,0,,,"Volume beginning at 11:45:00",,Sum,,0x0004
+"AB_Vol_1200",I,389,4,0,8,0,,,"Volume beginning at 12:00:00",,Sum,,0x0004
+"BA_Vol_1200",I,393,4,0,8,0,,,"Volume beginning at 12:00:00",,Sum,,0x0004
+"AB_Vol_1215",I,397,4,0,8,0,,,"Volume beginning at 12:15:00",,Sum,,0x0004
+"BA_Vol_1215",I,401,4,0,8,0,,,"Volume beginning at 12:15:00",,Sum,,0x0004
+"AB_Vol_1230",I,405,4,0,8,0,,,"Volume beginning at 12:30:00",,Sum,,0x0004
+"BA_Vol_1230",I,409,4,0,8,0,,,"Volume beginning at 12:30:00",,Sum,,0x0004
+"AB_Vol_1245",I,413,4,0,8,0,,,"Volume beginning at 12:45:00",,Sum,,0x0004
+"BA_Vol_1245",I,417,4,0,8,0,,,"Volume beginning at 12:45:00",,Sum,,0x0004
+"AB_Vol_1300",I,421,4,0,8,0,,,"Volume beginning at 13:00:00",,Sum,,0x0004
+"BA_Vol_1300",I,425,4,0,8,0,,,"Volume beginning at 13:00:00",,Sum,,0x0004
+"AB_Vol_1315",I,429,4,0,8,0,,,"Volume beginning at 13:15:00",,Sum,,0x0004
+"BA_Vol_1315",I,433,4,0,8,0,,,"Volume beginning at 13:15:00",,Sum,,0x0004
+"AB_Vol_1330",I,437,4,0,8,0,,,"Volume beginning at 13:30:00",,Sum,,0x0004
+"BA_Vol_1330",I,441,4,0,8,0,,,"Volume beginning at 13:30:00",,Sum,,0x0004
+"AB_Vol_1345",I,445,4,0,8,0,,,"Volume beginning at 13:45:00",,Sum,,0x0004
+"BA_Vol_1345",I,449,4,0,8,0,,,"Volume beginning at 13:45:00",,Sum,,0x0004
+"AB_Vol_1400",I,453,4,0,8,0,,,"Volume beginning at 14:00:00",,Sum,,0x0004
+"BA_Vol_1400",I,457,4,0,8,0,,,"Volume beginning at 14:00:00",,Sum,,0x0004
+"AB_Vol_1415",I,461,4,0,8,0,,,"Volume beginning at 14:15:00",,Sum,,0x0004
+"BA_Vol_1415",I,465,4,0,8,0,,,"Volume beginning at 14:15:00",,Sum,,0x0004
+"AB_Vol_1430",I,469,4,0,8,0,,,"Volume beginning at 14:30:00",,Sum,,0x0004
+"BA_Vol_1430",I,473,4,0,8,0,,,"Volume beginning at 14:30:00",,Sum,,0x0004
+"AB_Vol_1445",I,477,4,0,8,0,,,"Volume beginning at 14:45:00",,Sum,,0x0004
+"BA_Vol_1445",I,481,4,0,8,0,,,"Volume beginning at 14:45:00",,Sum,,0x0004
+"AB_Vol_1500",I,485,4,0,8,0,,,"Volume beginning at 15:00:00",,Sum,,0x0004
+"BA_Vol_1500",I,489,4,0,8,0,,,"Volume beginning at 15:00:00",,Sum,,0x0004
+"AB_Vol_1515",I,493,4,0,8,0,,,"Volume beginning at 15:15:00",,Sum,,0x0004
+"BA_Vol_1515",I,497,4,0,8,0,,,"Volume beginning at 15:15:00",,Sum,,0x0004
+"AB_Vol_1530",I,501,4,0,8,0,,,"Volume beginning at 15:30:00",,Sum,,0x0004
+"BA_Vol_1530",I,505,4,0,8,0,,,"Volume beginning at 15:30:00",,Sum,,0x0004
+"AB_Vol_1545",I,509,4,0,8,0,,,"Volume beginning at 15:45:00",,Sum,,0x0004
+"BA_Vol_1545",I,513,4,0,8,0,,,"Volume beginning at 15:45:00",,Sum,,0x0004
+"AB_Vol_1600",I,517,4,0,8,0,,,"Volume beginning at 16:00:00",,Sum,,0x0004
+"BA_Vol_1600",I,521,4,0,8,0,,,"Volume beginning at 16:00:00",,Sum,,0x0004
+"AB_Vol_1615",I,525,4,0,8,0,,,"Volume beginning at 16:15:00",,Sum,,0x0004
+"BA_Vol_1615",I,529,4,0,8,0,,,"Volume beginning at 16:15:00",,Sum,,0x0004
+"AB_Vol_1630",I,533,4,0,8,0,,,"Volume beginning at 16:30:00",,Sum,,0x0004
+"BA_Vol_1630",I,537,4,0,8,0,,,"Volume beginning at 16:30:00",,Sum,,0x0004
+"AB_Vol_1645",I,541,4,0,8,0,,,"Volume beginning at 16:45:00",,Sum,,0x0004
+"BA_Vol_1645",I,545,4,0,8,0,,,"Volume beginning at 16:45:00",,Sum,,0x0004
+"AB_Vol_1700",I,549,4,0,8,0,,,"Volume beginning at 17:00:00",,Sum,,0x0004
+"BA_Vol_1700",I,553,4,0,8,0,,,"Volume beginning at 17:00:00",,Sum,,0x0004
+"AB_Vol_1715",I,557,4,0,8,0,,,"Volume beginning at 17:15:00",,Sum,,0x0004
+"BA_Vol_1715",I,561,4,0,8,0,,,"Volume beginning at 17:15:00",,Sum,,0x0004
+"AB_Vol_1730",I,565,4,0,8,0,,,"Volume beginning at 17:30:00",,Sum,,0x0004
+"BA_Vol_1730",I,569,4,0,8,0,,,"Volume beginning at 17:30:00",,Sum,,0x0004
+"AB_Vol_1745",I,573,4,0,8,0,,,"Volume beginning at 17:45:00",,Sum,,0x0004
+"BA_Vol_1745",I,577,4,0,8,0,,,"Volume beginning at 17:45:00",,Sum,,0x0004
+"AB_Vol_1800",I,581,4,0,8,0,,,"Volume beginning at 18:00:00",,Sum,,0x0004
+"BA_Vol_1800",I,585,4,0,8,0,,,"Volume beginning at 18:00:00",,Sum,,0x0004
+"AB_Vol_1815",I,589,4,0,8,0,,,"Volume beginning at 18:15:00",,Sum,,0x0004
+"BA_Vol_1815",I,593,4,0,8,0,,,"Volume beginning at 18:15:00",,Sum,,0x0004
+"AB_Vol_1830",I,597,4,0,8,0,,,"Volume beginning at 18:30:00",,Sum,,0x0004
+"BA_Vol_1830",I,601,4,0,8,0,,,"Volume beginning at 18:30:00",,Sum,,0x0004
+"AB_Vol_1845",I,605,4,0,8,0,,,"Volume beginning at 18:45:00",,Sum,,0x0004
+"BA_Vol_1845",I,609,4,0,8,0,,,"Volume beginning at 18:45:00",,Sum,,0x0004
+"AB_Vol_1900",I,613,4,0,8,0,,,"Volume beginning at 19:00:00",,Sum,,0x0004
+"BA_Vol_1900",I,617,4,0,8,0,,,"Volume beginning at 19:00:00",,Sum,,0x0004
+"AB_Vol_1915",I,621,4,0,8,0,,,"Volume beginning at 19:15:00",,Sum,,0x0004
+"BA_Vol_1915",I,625,4,0,8,0,,,"Volume beginning at 19:15:00",,Sum,,0x0004
+"AB_Vol_1930",I,629,4,0,8,0,,,"Volume beginning at 19:30:00",,Sum,,0x0004
+"BA_Vol_1930",I,633,4,0,8,0,,,"Volume beginning at 19:30:00",,Sum,,0x0004
+"AB_Vol_1945",I,637,4,0,8,0,,,"Volume beginning at 19:45:00",,Sum,,0x0004
+"BA_Vol_1945",I,641,4,0,8,0,,,"Volume beginning at 19:45:00",,Sum,,0x0004
+"AB_Vol_2000",I,645,4,0,8,0,,,"Volume beginning at 20:00:00",,Sum,,0x0004
+"BA_Vol_2000",I,649,4,0,8,0,,,"Volume beginning at 20:00:00",,Sum,,0x0004
+"AB_Vol_2015",I,653,4,0,8,0,,,"Volume beginning at 20:15:00",,Sum,,0x0004
+"BA_Vol_2015",I,657,4,0,8,0,,,"Volume beginning at 20:15:00",,Sum,,0x0004
+"AB_Vol_2030",I,661,4,0,8,0,,,"Volume beginning at 20:30:00",,Sum,,0x0004
+"BA_Vol_2030",I,665,4,0,8,0,,,"Volume beginning at 20:30:00",,Sum,,0x0004
+"AB_Vol_2045",I,669,4,0,8,0,,,"Volume beginning at 20:45:00",,Sum,,0x0004
+"BA_Vol_2045",I,673,4,0,8,0,,,"Volume beginning at 20:45:00",,Sum,,0x0004
+"AB_Vol_2100",I,677,4,0,8,0,,,"Volume beginning at 21:00:00",,Sum,,0x0004
+"BA_Vol_2100",I,681,4,0,8,0,,,"Volume beginning at 21:00:00",,Sum,,0x0004
+"AB_Vol_2115",I,685,4,0,8,0,,,"Volume beginning at 21:15:00",,Sum,,0x0004
+"BA_Vol_2115",I,689,4,0,8,0,,,"Volume beginning at 21:15:00",,Sum,,0x0004
+"AB_Vol_2130",I,693,4,0,8,0,,,"Volume beginning at 21:30:00",,Sum,,0x0004
+"BA_Vol_2130",I,697,4,0,8,0,,,"Volume beginning at 21:30:00",,Sum,,0x0004
+"AB_Vol_2145",I,701,4,0,8,0,,,"Volume beginning at 21:45:00",,Sum,,0x0004
+"BA_Vol_2145",I,705,4,0,8,0,,,"Volume beginning at 21:45:00",,Sum,,0x0004
+"AB_Vol_2200",I,709,4,0,8,0,,,"Volume beginning at 22:00:00",,Sum,,0x0004
+"BA_Vol_2200",I,713,4,0,8,0,,,"Volume beginning at 22:00:00",,Sum,,0x0004
+"AB_Vol_2215",I,717,4,0,8,0,,,"Volume beginning at 22:15:00",,Sum,,0x0004
+"BA_Vol_2215",I,721,4,0,8,0,,,"Volume beginning at 22:15:00",,Sum,,0x0004
+"AB_Vol_2230",I,725,4,0,8,0,,,"Volume beginning at 22:30:00",,Sum,,0x0004
+"BA_Vol_2230",I,729,4,0,8,0,,,"Volume beginning at 22:30:00",,Sum,,0x0004
+"AB_Vol_2245",I,733,4,0,8,0,,,"Volume beginning at 22:45:00",,Sum,,0x0004
+"BA_Vol_2245",I,737,4,0,8,0,,,"Volume beginning at 22:45:00",,Sum,,0x0004
+"AB_Vol_2300",I,741,4,0,8,0,,,"Volume beginning at 23:00:00",,Sum,,0x0004
+"BA_Vol_2300",I,745,4,0,8,0,,,"Volume beginning at 23:00:00",,Sum,,0x0004
+"AB_Vol_2315",I,749,4,0,8,0,,,"Volume beginning at 23:15:00",,Sum,,0x0004
+"BA_Vol_2315",I,753,4,0,8,0,,,"Volume beginning at 23:15:00",,Sum,,0x0004
+"AB_Vol_2330",I,757,4,0,8,0,,,"Volume beginning at 23:30:00",,Sum,,0x0004
+"BA_Vol_2330",I,761,4,0,8,0,,,"Volume beginning at 23:30:00",,Sum,,0x0004
+"AB_Vol_2345",I,765,4,0,8,0,,,"Volume beginning at 23:45:00",,Sum,,0x0004
+"BA_Vol_2345",I,769,4,0,8,0,,,"Volume beginning at 23:45:00",,Sum,,0x0004
+"AB_Vol",I,773,4,0,8,0,,,"Total volume",,Sum,,0x0004
+"BA_Vol",I,777,4,0,8,0,,,"Total volume",,Sum,,0x0004
+"AB_Time_0000",F,781,4,0,8,1,,,"In seconds, for period beginning at 00:00:00",,Sum,,0x0005
+"BA_Time_0000",F,785,4,0,8,1,,,"In seconds, for period beginning at 00:00:00",,Sum,,0x0005
+"AB_Time_0015",F,789,4,0,8,1,,,"In seconds, for period beginning at 00:15:00",,Sum,,0x0005
+"BA_Time_0015",F,793,4,0,8,1,,,"In seconds, for period beginning at 00:15:00",,Sum,,0x0005
+"AB_Time_0030",F,797,4,0,8,1,,,"In seconds, for period beginning at 00:30:00",,Sum,,0x0005
+"BA_Time_0030",F,801,4,0,8,1,,,"In seconds, for period beginning at 00:30:00",,Sum,,0x0005
+"AB_Time_0045",F,805,4,0,8,1,,,"In seconds, for period beginning at 00:45:00",,Sum,,0x0005
+"BA_Time_0045",F,809,4,0,8,1,,,"In seconds, for period beginning at 00:45:00",,Sum,,0x0005
+"AB_Time_0100",F,813,4,0,8,1,,,"In seconds, for period beginning at 01:00:00",,Sum,,0x0005
+"BA_Time_0100",F,817,4,0,8,1,,,"In seconds, for period beginning at 01:00:00",,Sum,,0x0005
+"AB_Time_0115",F,821,4,0,8,1,,,"In seconds, for period beginning at 01:15:00",,Sum,,0x0005
+"BA_Time_0115",F,825,4,0,8,1,,,"In seconds, for period beginning at 01:15:00",,Sum,,0x0005
+"AB_Time_0130",F,829,4,0,8,1,,,"In seconds, for period beginning at 01:30:00",,Sum,,0x0005
+"BA_Time_0130",F,833,4,0,8,1,,,"In seconds, for period beginning at 01:30:00",,Sum,,0x0005
+"AB_Time_0145",F,837,4,0,8,1,,,"In seconds, for period beginning at 01:45:00",,Sum,,0x0005
+"BA_Time_0145",F,841,4,0,8,1,,,"In seconds, for period beginning at 01:45:00",,Sum,,0x0005
+"AB_Time_0200",F,845,4,0,8,1,,,"In seconds, for period beginning at 02:00:00",,Sum,,0x0005
+"BA_Time_0200",F,849,4,0,8,1,,,"In seconds, for period beginning at 02:00:00",,Sum,,0x0005
+"AB_Time_0215",F,853,4,0,8,1,,,"In seconds, for period beginning at 02:15:00",,Sum,,0x0005
+"BA_Time_0215",F,857,4,0,8,1,,,"In seconds, for period beginning at 02:15:00",,Sum,,0x0005
+"AB_Time_0230",F,861,4,0,8,1,,,"In seconds, for period beginning at 02:30:00",,Sum,,0x0005
+"BA_Time_0230",F,865,4,0,8,1,,,"In seconds, for period beginning at 02:30:00",,Sum,,0x0005
+"AB_Time_0245",F,869,4,0,8,1,,,"In seconds, for period beginning at 02:45:00",,Sum,,0x0005
+"BA_Time_0245",F,873,4,0,8,1,,,"In seconds, for period beginning at 02:45:00",,Sum,,0x0005
+"AB_Time_0300",F,877,4,0,8,1,,,"In seconds, for period beginning at 03:00:00",,Sum,,0x0005
+"BA_Time_0300",F,881,4,0,8,1,,,"In seconds, for period beginning at 03:00:00",,Sum,,0x0005
+"AB_Time_0315",F,885,4,0,8,1,,,"In seconds, for period beginning at 03:15:00",,Sum,,0x0005
+"BA_Time_0315",F,889,4,0,8,1,,,"In seconds, for period beginning at 03:15:00",,Sum,,0x0005
+"AB_Time_0330",F,893,4,0,8,1,,,"In seconds, for period beginning at 03:30:00",,Sum,,0x0005
+"BA_Time_0330",F,897,4,0,8,1,,,"In seconds, for period beginning at 03:30:00",,Sum,,0x0005
+"AB_Time_0345",F,901,4,0,8,1,,,"In seconds, for period beginning at 03:45:00",,Sum,,0x0005
+"BA_Time_0345",F,905,4,0,8,1,,,"In seconds, for period beginning at 03:45:00",,Sum,,0x0005
+"AB_Time_0400",F,909,4,0,8,1,,,"In seconds, for period beginning at 04:00:00",,Sum,,0x0005
+"BA_Time_0400",F,913,4,0,8,1,,,"In seconds, for period beginning at 04:00:00",,Sum,,0x0005
+"AB_Time_0415",F,917,4,0,8,1,,,"In seconds, for period beginning at 04:15:00",,Sum,,0x0005
+"BA_Time_0415",F,921,4,0,8,1,,,"In seconds, for period beginning at 04:15:00",,Sum,,0x0005
+"AB_Time_0430",F,925,4,0,8,1,,,"In seconds, for period beginning at 04:30:00",,Sum,,0x0005
+"BA_Time_0430",F,929,4,0,8,1,,,"In seconds, for period beginning at 04:30:00",,Sum,,0x0005
+"AB_Time_0445",F,933,4,0,8,1,,,"In seconds, for period beginning at 04:45:00",,Sum,,0x0005
+"BA_Time_0445",F,937,4,0,8,1,,,"In seconds, for period beginning at 04:45:00",,Sum,,0x0005
+"AB_Time_0500",F,941,4,0,8,1,,,"In seconds, for period beginning at 05:00:00",,Sum,,0x0005
+"BA_Time_0500",F,945,4,0,8,1,,,"In seconds, for period beginning at 05:00:00",,Sum,,0x0005
+"AB_Time_0515",F,949,4,0,8,1,,,"In seconds, for period beginning at 05:15:00",,Sum,,0x0005
+"BA_Time_0515",F,953,4,0,8,1,,,"In seconds, for period beginning at 05:15:00",,Sum,,0x0005
+"AB_Time_0530",F,957,4,0,8,1,,,"In seconds, for period beginning at 05:30:00",,Sum,,0x0005
+"BA_Time_0530",F,961,4,0,8,1,,,"In seconds, for period beginning at 05:30:00",,Sum,,0x0005
+"AB_Time_0545",F,965,4,0,8,1,,,"In seconds, for period beginning at 05:45:00",,Sum,,0x0005
+"BA_Time_0545",F,969,4,0,8,1,,,"In seconds, for period beginning at 05:45:00",,Sum,,0x0005
+"AB_Time_0600",F,973,4,0,8,1,,,"In seconds, for period beginning at 06:00:00",,Sum,,0x0005
+"BA_Time_0600",F,977,4,0,8,1,,,"In seconds, for period beginning at 06:00:00",,Sum,,0x0005
+"AB_Time_0615",F,981,4,0,8,1,,,"In seconds, for period beginning at 06:15:00",,Sum,,0x0005
+"BA_Time_0615",F,985,4,0,8,1,,,"In seconds, for period beginning at 06:15:00",,Sum,,0x0005
+"AB_Time_0630",F,989,4,0,8,1,,,"In seconds, for period beginning at 06:30:00",,Sum,,0x0005
+"BA_Time_0630",F,993,4,0,8,1,,,"In seconds, for period beginning at 06:30:00",,Sum,,0x0005
+"AB_Time_0645",F,997,4,0,8,1,,,"In seconds, for period beginning at 06:45:00",,Sum,,0x0005
+"BA_Time_0645",F,1001,4,0,8,1,,,"In seconds, for period beginning at 06:45:00",,Sum,,0x0005
+"AB_Time_0700",F,1005,4,0,8,1,,,"In seconds, for period beginning at 07:00:00",,Sum,,0x0005
+"BA_Time_0700",F,1009,4,0,8,1,,,"In seconds, for period beginning at 07:00:00",,Sum,,0x0005
+"AB_Time_0715",F,1013,4,0,8,1,,,"In seconds, for period beginning at 07:15:00",,Sum,,0x0005
+"BA_Time_0715",F,1017,4,0,8,1,,,"In seconds, for period beginning at 07:15:00",,Sum,,0x0005
+"AB_Time_0730",F,1021,4,0,8,1,,,"In seconds, for period beginning at 07:30:00",,Sum,,0x0005
+"BA_Time_0730",F,1025,4,0,8,1,,,"In seconds, for period beginning at 07:30:00",,Sum,,0x0005
+"AB_Time_0745",F,1029,4,0,8,1,,,"In seconds, for period beginning at 07:45:00",,Sum,,0x0005
+"BA_Time_0745",F,1033,4,0,8,1,,,"In seconds, for period beginning at 07:45:00",,Sum,,0x0005
+"AB_Time_0800",F,1037,4,0,8,1,,,"In seconds, for period beginning at 08:00:00",,Sum,,0x0005
+"BA_Time_0800",F,1041,4,0,8,1,,,"In seconds, for period beginning at 08:00:00",,Sum,,0x0005
+"AB_Time_0815",F,1045,4,0,8,1,,,"In seconds, for period beginning at 08:15:00",,Sum,,0x0005
+"BA_Time_0815",F,1049,4,0,8,1,,,"In seconds, for period beginning at 08:15:00",,Sum,,0x0005
+"AB_Time_0830",F,1053,4,0,8,1,,,"In seconds, for period beginning at 08:30:00",,Sum,,0x0005
+"BA_Time_0830",F,1057,4,0,8,1,,,"In seconds, for period beginning at 08:30:00",,Sum,,0x0005
+"AB_Time_0845",F,1061,4,0,8,1,,,"In seconds, for period beginning at 08:45:00",,Sum,,0x0005
+"BA_Time_0845",F,1065,4,0,8,1,,,"In seconds, for period beginning at 08:45:00",,Sum,,0x0005
+"AB_Time_0900",F,1069,4,0,8,1,,,"In seconds, for period beginning at 09:00:00",,Sum,,0x0005
+"BA_Time_0900",F,1073,4,0,8,1,,,"In seconds, for period beginning at 09:00:00",,Sum,,0x0005
+"AB_Time_0915",F,1077,4,0,8,1,,,"In seconds, for period beginning at 09:15:00",,Sum,,0x0005
+"BA_Time_0915",F,1081,4,0,8,1,,,"In seconds, for period beginning at 09:15:00",,Sum,,0x0005
+"AB_Time_0930",F,1085,4,0,8,1,,,"In seconds, for period beginning at 09:30:00",,Sum,,0x0005
+"BA_Time_0930",F,1089,4,0,8,1,,,"In seconds, for period beginning at 09:30:00",,Sum,,0x0005
+"AB_Time_0945",F,1093,4,0,8,1,,,"In seconds, for period beginning at 09:45:00",,Sum,,0x0005
+"BA_Time_0945",F,1097,4,0,8,1,,,"In seconds, for period beginning at 09:45:00",,Sum,,0x0005
+"AB_Time_1000",F,1101,4,0,8,1,,,"In seconds, for period beginning at 10:00:00",,Sum,,0x0005
+"BA_Time_1000",F,1105,4,0,8,1,,,"In seconds, for period beginning at 10:00:00",,Sum,,0x0005
+"AB_Time_1015",F,1109,4,0,8,1,,,"In seconds, for period beginning at 10:15:00",,Sum,,0x0005
+"BA_Time_1015",F,1113,4,0,8,1,,,"In seconds, for period beginning at 10:15:00",,Sum,,0x0005
+"AB_Time_1030",F,1117,4,0,8,1,,,"In seconds, for period beginning at 10:30:00",,Sum,,0x0005
+"BA_Time_1030",F,1121,4,0,8,1,,,"In seconds, for period beginning at 10:30:00",,Sum,,0x0005
+"AB_Time_1045",F,1125,4,0,8,1,,,"In seconds, for period beginning at 10:45:00",,Sum,,0x0005
+"BA_Time_1045",F,1129,4,0,8,1,,,"In seconds, for period beginning at 10:45:00",,Sum,,0x0005
+"AB_Time_1100",F,1133,4,0,8,1,,,"In seconds, for period beginning at 11:00:00",,Sum,,0x0005
+"BA_Time_1100",F,1137,4,0,8,1,,,"In seconds, for period beginning at 11:00:00",,Sum,,0x0005
+"AB_Time_1115",F,1141,4,0,8,1,,,"In seconds, for period beginning at 11:15:00",,Sum,,0x0005
+"BA_Time_1115",F,1145,4,0,8,1,,,"In seconds, for period beginning at 11:15:00",,Sum,,0x0005
+"AB_Time_1130",F,1149,4,0,8,1,,,"In seconds, for period beginning at 11:30:00",,Sum,,0x0005
+"BA_Time_1130",F,1153,4,0,8,1,,,"In seconds, for period beginning at 11:30:00",,Sum,,0x0005
+"AB_Time_1145",F,1157,4,0,8,1,,,"In seconds, for period beginning at 11:45:00",,Sum,,0x0005
+"BA_Time_1145",F,1161,4,0,8,1,,,"In seconds, for period beginning at 11:45:00",,Sum,,0x0005
+"AB_Time_1200",F,1165,4,0,8,1,,,"In seconds, for period beginning at 12:00:00",,Sum,,0x0005
+"BA_Time_1200",F,1169,4,0,8,1,,,"In seconds, for period beginning at 12:00:00",,Sum,,0x0005
+"AB_Time_1215",F,1173,4,0,8,1,,,"In seconds, for period beginning at 12:15:00",,Sum,,0x0005
+"BA_Time_1215",F,1177,4,0,8,1,,,"In seconds, for period beginning at 12:15:00",,Sum,,0x0005
+"AB_Time_1230",F,1181,4,0,8,1,,,"In seconds, for period beginning at 12:30:00",,Sum,,0x0005
+"BA_Time_1230",F,1185,4,0,8,1,,,"In seconds, for period beginning at 12:30:00",,Sum,,0x0005
+"AB_Time_1245",F,1189,4,0,8,1,,,"In seconds, for period beginning at 12:45:00",,Sum,,0x0005
+"BA_Time_1245",F,1193,4,0,8,1,,,"In seconds, for period beginning at 12:45:00",,Sum,,0x0005
+"AB_Time_1300",F,1197,4,0,8,1,,,"In seconds, for period beginning at 13:00:00",,Sum,,0x0005
+"BA_Time_1300",F,1201,4,0,8,1,,,"In seconds, for period beginning at 13:00:00",,Sum,,0x0005
+"AB_Time_1315",F,1205,4,0,8,1,,,"In seconds, for period beginning at 13:15:00",,Sum,,0x0005
+"BA_Time_1315",F,1209,4,0,8,1,,,"In seconds, for period beginning at 13:15:00",,Sum,,0x0005
+"AB_Time_1330",F,1213,4,0,8,1,,,"In seconds, for period beginning at 13:30:00",,Sum,,0x0005
+"BA_Time_1330",F,1217,4,0,8,1,,,"In seconds, for period beginning at 13:30:00",,Sum,,0x0005
+"AB_Time_1345",F,1221,4,0,8,1,,,"In seconds, for period beginning at 13:45:00",,Sum,,0x0005
+"BA_Time_1345",F,1225,4,0,8,1,,,"In seconds, for period beginning at 13:45:00",,Sum,,0x0005
+"AB_Time_1400",F,1229,4,0,8,1,,,"In seconds, for period beginning at 14:00:00",,Sum,,0x0005
+"BA_Time_1400",F,1233,4,0,8,1,,,"In seconds, for period beginning at 14:00:00",,Sum,,0x0005
+"AB_Time_1415",F,1237,4,0,8,1,,,"In seconds, for period beginning at 14:15:00",,Sum,,0x0005
+"BA_Time_1415",F,1241,4,0,8,1,,,"In seconds, for period beginning at 14:15:00",,Sum,,0x0005
+"AB_Time_1430",F,1245,4,0,8,1,,,"In seconds, for period beginning at 14:30:00",,Sum,,0x0005
+"BA_Time_1430",F,1249,4,0,8,1,,,"In seconds, for period beginning at 14:30:00",,Sum,,0x0005
+"AB_Time_1445",F,1253,4,0,8,1,,,"In seconds, for period beginning at 14:45:00",,Sum,,0x0005
+"BA_Time_1445",F,1257,4,0,8,1,,,"In seconds, for period beginning at 14:45:00",,Sum,,0x0005
+"AB_Time_1500",F,1261,4,0,8,1,,,"In seconds, for period beginning at 15:00:00",,Sum,,0x0005
+"BA_Time_1500",F,1265,4,0,8,1,,,"In seconds, for period beginning at 15:00:00",,Sum,,0x0005
+"AB_Time_1515",F,1269,4,0,8,1,,,"In seconds, for period beginning at 15:15:00",,Sum,,0x0005
+"BA_Time_1515",F,1273,4,0,8,1,,,"In seconds, for period beginning at 15:15:00",,Sum,,0x0005
+"AB_Time_1530",F,1277,4,0,8,1,,,"In seconds, for period beginning at 15:30:00",,Sum,,0x0005
+"BA_Time_1530",F,1281,4,0,8,1,,,"In seconds, for period beginning at 15:30:00",,Sum,,0x0005
+"AB_Time_1545",F,1285,4,0,8,1,,,"In seconds, for period beginning at 15:45:00",,Sum,,0x0005
+"BA_Time_1545",F,1289,4,0,8,1,,,"In seconds, for period beginning at 15:45:00",,Sum,,0x0005
+"AB_Time_1600",F,1293,4,0,8,1,,,"In seconds, for period beginning at 16:00:00",,Sum,,0x0005
+"BA_Time_1600",F,1297,4,0,8,1,,,"In seconds, for period beginning at 16:00:00",,Sum,,0x0005
+"AB_Time_1615",F,1301,4,0,8,1,,,"In seconds, for period beginning at 16:15:00",,Sum,,0x0005
+"BA_Time_1615",F,1305,4,0,8,1,,,"In seconds, for period beginning at 16:15:00",,Sum,,0x0005
+"AB_Time_1630",F,1309,4,0,8,1,,,"In seconds, for period beginning at 16:30:00",,Sum,,0x0005
+"BA_Time_1630",F,1313,4,0,8,1,,,"In seconds, for period beginning at 16:30:00",,Sum,,0x0005
+"AB_Time_1645",F,1317,4,0,8,1,,,"In seconds, for period beginning at 16:45:00",,Sum,,0x0005
+"BA_Time_1645",F,1321,4,0,8,1,,,"In seconds, for period beginning at 16:45:00",,Sum,,0x0005
+"AB_Time_1700",F,1325,4,0,8,1,,,"In seconds, for period beginning at 17:00:00",,Sum,,0x0005
+"BA_Time_1700",F,1329,4,0,8,1,,,"In seconds, for period beginning at 17:00:00",,Sum,,0x0005
+"AB_Time_1715",F,1333,4,0,8,1,,,"In seconds, for period beginning at 17:15:00",,Sum,,0x0005
+"BA_Time_1715",F,1337,4,0,8,1,,,"In seconds, for period beginning at 17:15:00",,Sum,,0x0005
+"AB_Time_1730",F,1341,4,0,8,1,,,"In seconds, for period beginning at 17:30:00",,Sum,,0x0005
+"BA_Time_1730",F,1345,4,0,8,1,,,"In seconds, for period beginning at 17:30:00",,Sum,,0x0005
+"AB_Time_1745",F,1349,4,0,8,1,,,"In seconds, for period beginning at 17:45:00",,Sum,,0x0005
+"BA_Time_1745",F,1353,4,0,8,1,,,"In seconds, for period beginning at 17:45:00",,Sum,,0x0005
+"AB_Time_1800",F,1357,4,0,8,1,,,"In seconds, for period beginning at 18:00:00",,Sum,,0x0005
+"BA_Time_1800",F,1361,4,0,8,1,,,"In seconds, for period beginning at 18:00:00",,Sum,,0x0005
+"AB_Time_1815",F,1365,4,0,8,1,,,"In seconds, for period beginning at 18:15:00",,Sum,,0x0005
+"BA_Time_1815",F,1369,4,0,8,1,,,"In seconds, for period beginning at 18:15:00",,Sum,,0x0005
+"AB_Time_1830",F,1373,4,0,8,1,,,"In seconds, for period beginning at 18:30:00",,Sum,,0x0005
+"BA_Time_1830",F,1377,4,0,8,1,,,"In seconds, for period beginning at 18:30:00",,Sum,,0x0005
+"AB_Time_1845",F,1381,4,0,8,1,,,"In seconds, for period beginning at 18:45:00",,Sum,,0x0005
+"BA_Time_1845",F,1385,4,0,8,1,,,"In seconds, for period beginning at 18:45:00",,Sum,,0x0005
+"AB_Time_1900",F,1389,4,0,8,1,,,"In seconds, for period beginning at 19:00:00",,Sum,,0x0005
+"BA_Time_1900",F,1393,4,0,8,1,,,"In seconds, for period beginning at 19:00:00",,Sum,,0x0005
+"AB_Time_1915",F,1397,4,0,8,1,,,"In seconds, for period beginning at 19:15:00",,Sum,,0x0005
+"BA_Time_1915",F,1401,4,0,8,1,,,"In seconds, for period beginning at 19:15:00",,Sum,,0x0005
+"AB_Time_1930",F,1405,4,0,8,1,,,"In seconds, for period beginning at 19:30:00",,Sum,,0x0005
+"BA_Time_1930",F,1409,4,0,8,1,,,"In seconds, for period beginning at 19:30:00",,Sum,,0x0005
+"AB_Time_1945",F,1413,4,0,8,1,,,"In seconds, for period beginning at 19:45:00",,Sum,,0x0005
+"BA_Time_1945",F,1417,4,0,8,1,,,"In seconds, for period beginning at 19:45:00",,Sum,,0x0005
+"AB_Time_2000",F,1421,4,0,8,1,,,"In seconds, for period beginning at 20:00:00",,Sum,,0x0005
+"BA_Time_2000",F,1425,4,0,8,1,,,"In seconds, for period beginning at 20:00:00",,Sum,,0x0005
+"AB_Time_2015",F,1429,4,0,8,1,,,"In seconds, for period beginning at 20:15:00",,Sum,,0x0005
+"BA_Time_2015",F,1433,4,0,8,1,,,"In seconds, for period beginning at 20:15:00",,Sum,,0x0005
+"AB_Time_2030",F,1437,4,0,8,1,,,"In seconds, for period beginning at 20:30:00",,Sum,,0x0005
+"BA_Time_2030",F,1441,4,0,8,1,,,"In seconds, for period beginning at 20:30:00",,Sum,,0x0005
+"AB_Time_2045",F,1445,4,0,8,1,,,"In seconds, for period beginning at 20:45:00",,Sum,,0x0005
+"BA_Time_2045",F,1449,4,0,8,1,,,"In seconds, for period beginning at 20:45:00",,Sum,,0x0005
+"AB_Time_2100",F,1453,4,0,8,1,,,"In seconds, for period beginning at 21:00:00",,Sum,,0x0005
+"BA_Time_2100",F,1457,4,0,8,1,,,"In seconds, for period beginning at 21:00:00",,Sum,,0x0005
+"AB_Time_2115",F,1461,4,0,8,1,,,"In seconds, for period beginning at 21:15:00",,Sum,,0x0005
+"BA_Time_2115",F,1465,4,0,8,1,,,"In seconds, for period beginning at 21:15:00",,Sum,,0x0005
+"AB_Time_2130",F,1469,4,0,8,1,,,"In seconds, for period beginning at 21:30:00",,Sum,,0x0005
+"BA_Time_2130",F,1473,4,0,8,1,,,"In seconds, for period beginning at 21:30:00",,Sum,,0x0005
+"AB_Time_2145",F,1477,4,0,8,1,,,"In seconds, for period beginning at 21:45:00",,Sum,,0x0005
+"BA_Time_2145",F,1481,4,0,8,1,,,"In seconds, for period beginning at 21:45:00",,Sum,,0x0005
+"AB_Time_2200",F,1485,4,0,8,1,,,"In seconds, for period beginning at 22:00:00",,Sum,,0x0005
+"BA_Time_2200",F,1489,4,0,8,1,,,"In seconds, for period beginning at 22:00:00",,Sum,,0x0005
+"AB_Time_2215",F,1493,4,0,8,1,,,"In seconds, for period beginning at 22:15:00",,Sum,,0x0005
+"BA_Time_2215",F,1497,4,0,8,1,,,"In seconds, for period beginning at 22:15:00",,Sum,,0x0005
+"AB_Time_2230",F,1501,4,0,8,1,,,"In seconds, for period beginning at 22:30:00",,Sum,,0x0005
+"BA_Time_2230",F,1505,4,0,8,1,,,"In seconds, for period beginning at 22:30:00",,Sum,,0x0005
+"AB_Time_2245",F,1509,4,0,8,1,,,"In seconds, for period beginning at 22:45:00",,Sum,,0x0005
+"BA_Time_2245",F,1513,4,0,8,1,,,"In seconds, for period beginning at 22:45:00",,Sum,,0x0005
+"AB_Time_2300",F,1517,4,0,8,1,,,"In seconds, for period beginning at 23:00:00",,Sum,,0x0005
+"BA_Time_2300",F,1521,4,0,8,1,,,"In seconds, for period beginning at 23:00:00",,Sum,,0x0005
+"AB_Time_2315",F,1525,4,0,8,1,,,"In seconds, for period beginning at 23:15:00",,Sum,,0x0005
+"BA_Time_2315",F,1529,4,0,8,1,,,"In seconds, for period beginning at 23:15:00",,Sum,,0x0005
+"AB_Time_2330",F,1533,4,0,8,1,,,"In seconds, for period beginning at 23:30:00",,Sum,,0x0005
+"BA_Time_2330",F,1537,4,0,8,1,,,"In seconds, for period beginning at 23:30:00",,Sum,,0x0005
+"AB_Time_2345",F,1541,4,0,8,1,,,"In seconds, for period beginning at 23:45:00",,Sum,,0x0005
+"BA_Time_2345",F,1545,4,0,8,1,,,"In seconds, for period beginning at 23:45:00",,Sum,,0x0005
+"AB_Time",F,1549,4,0,8,1,,,"Summary average travel time in seconds",,Sum,,0x0005
+"BA_Time",F,1553,4,0,8,1,,,"Summary average travel time in seconds",,Sum,,0x0005

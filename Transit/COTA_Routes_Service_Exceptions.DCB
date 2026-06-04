@@ -1,0 +1,5 @@
+
+12,codepage=65001
+"Date",I,1,4,0,10,0,,"","Exception date (YYYYMMDD)",,"Sum",
+"Service",C,5,7,0,7,0,,"","Unique ID for service dropped/added on exception date",,"Copy",
+"Change",C,12,1,0,1,0,,"","Whether the service was dropped or added",,"Copy",

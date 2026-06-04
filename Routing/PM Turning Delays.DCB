@@ -1,0 +1,25 @@
+Turning Movement Table, StartTime=15:00:00, IntervalLength=900, TimeUnit=s, Periods=16, FirstValueField=Delay_1500
+92,codepage=65001
+"FromLink",I,1,4,0,10,0,,,"Upstream link ID",,Sum,,0x0004
+"Node",I,5,4,0,10,0,,,"Node ID",,Sum,,0x0004
+"ToLink",I,9,4,0,10,0,,,"Downstream link ID",,Sum,,0x0004
+"Dir",C,13,4,0,4,0,,,"Approach direction",,Sum,,0x0007
+"Type",C,17,4,0,4,0,,,"Turn movement type",,Sum,,0x0007
+"Facility",I,21,4,0,10,0,,,"Roundabout or Weaving Section node ID",,Sum,,0x0004
+"Delay_1500",F,25,4,0,7,1,,,"Average turning delay in seconds beginning at 15:00:00",,Sum,,0x0005
+"Delay_1515",F,29,4,0,7,1,,,"Average turning delay in seconds beginning at 15:15:00",,Sum,,0x0005
+"Delay_1530",F,33,4,0,7,1,,,"Average turning delay in seconds beginning at 15:30:00",,Sum,,0x0005
+"Delay_1545",F,37,4,0,7,1,,,"Average turning delay in seconds beginning at 15:45:00",,Sum,,0x0005
+"Delay_1600",F,41,4,0,7,1,,,"Average turning delay in seconds beginning at 16:00:00",,Sum,,0x0005
+"Delay_1615",F,45,4,0,7,1,,,"Average turning delay in seconds beginning at 16:15:00",,Sum,,0x0005
+"Delay_1630",F,49,4,0,7,1,,,"Average turning delay in seconds beginning at 16:30:00",,Sum,,0x0005
+"Delay_1645",F,53,4,0,7,1,,,"Average turning delay in seconds beginning at 16:45:00",,Sum,,0x0005
+"Delay_1700",F,57,4,0,7,1,,,"Average turning delay in seconds beginning at 17:00:00",,Sum,,0x0005
+"Delay_1715",F,61,4,0,7,1,,,"Average turning delay in seconds beginning at 17:15:00",,Sum,,0x0005
+"Delay_1730",F,65,4,0,7,1,,,"Average turning delay in seconds beginning at 17:30:00",,Sum,,0x0005
+"Delay_1745",F,69,4,0,7,1,,,"Average turning delay in seconds beginning at 17:45:00",,Sum,,0x0005
+"Delay_1800",F,73,4,0,7,1,,,"Average turning delay in seconds beginning at 18:00:00",,Sum,,0x0005
+"Delay_1815",F,77,4,0,7,1,,,"Average turning delay in seconds beginning at 18:15:00",,Sum,,0x0005
+"Delay_1830",F,81,4,0,7,1,,,"Average turning delay in seconds beginning at 18:30:00",,Sum,,0x0005
+"Delay_1845",F,85,4,0,7,1,,,"Average turning delay in seconds beginning at 18:45:00",,Sum,,0x0005
+"Delay",F,89,4,0,7,1,,,"Summary average turning delay in seconds",,Sum,,0x0005
