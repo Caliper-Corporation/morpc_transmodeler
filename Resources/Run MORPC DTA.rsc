@@ -30,37 +30,46 @@ Macro "run_dta"
     first_iteration = if inner = "1" and outer = "1" then "True" else "False"
     ui = GetInterface()
     {dir, path, file, ext} = SplitPath(ui)
-    model_dir = dir + path + "..\\.." // root project folder
-    scen_dir = model_dir + "\\C10\\ABM\\SCEN\\" + scenario_name + "\\" + region
+    //model_dir = dir + path + "..\\.." // root project folder
+    model_dir = "E:\\models\\C10"
+    dta_dir = model_dir + "\\TSM"
+    scen_dir = model_dir + "\\ABM\\SCEN\\" + scenario_name + "\\" + region
 
     // Convert the trip list into the format required by TransModeler
     // for morpc, only keep taxi trips from this file
     in_csv = scen_dir + "\\CT-RAMP\\Core\\TripList.csv"
-    out_csv = model_dir + "\\DTA\\Demand\\TripList.csv"
+    out_csv = dta_dir + "\\Demand\\TripList.csv"
     mode_filter = "Select * where (mode = 16 and jointTripRole <= 1)"
     RunMacro("convert trip list", in_csv, out_csv, mode_filter, 10000000)
 
     // Convert the cartracker file
     in_csv = scen_dir + "\\CT-RAMP\\carTrack\\disaggregateCarUse_carTracker.csv"
-    out_csv = model_dir + "\\DTA\\Demand\\disaggregateCarUse_carTracker.csv"
+    out_csv = dta_dir + "\\Demand\\disaggregateCarUse_carTracker.csv"
     RunMacro("convert trip list", in_csv, out_csv, , 1)
 
     // Convert DCOM list
     in_csv = scen_dir + "\\CT-RAMP\\dcom\\DCOMVehicleTrips.csv"
-    out_csv = model_dir + "\\DTA\\Demand\\DCOMVehicleTrips.csv"
+    out_csv = dta_dir + "\\Demand\\DCOMVehicleTrips.csv"
     RunMacro("convert DCOM trip list", in_csv, out_csv )
 
     // Run the DTA
     rm = CreateObject("TSM.RunManager")
-    smp = model_dir + "\\DTA\\MORPC_DTA.smp"
+    smp = dta_dir + "\\MORPC_DTA.smp"
     rm.OpenSimulationProject(smp, )
     rm.SuppressAllWarnings()
     rm.SetSimulationRunMode("Dynamic Traffic Assignment")
-    if !first_iteration then do
-        if !rm.LoadPathTables("Demand") then do
+    if first_iteration then do
+        rm.ClearWarningMessages()
+        rm.ClearStatusMessages()
+        rm.SetDTASeedDemand(0.5)
+        rm.UnloadPathTables()
+    end
+    else if rm.LoadPathTables("Demand") then do
+        rm.SetSeedPathUpdates(0.5)
+        end
+    else do
             ShowMessage("Failed to load path tables from first iteration.")
             goto quit
-        end
     end
     rm.RunSimulation()  // this will start the DTA
 
