@@ -38,17 +38,17 @@ Macro "run_dta"
     in_csv = scen_dir + "\\CT-RAMP\\Core\\TripList.csv"
     out_csv = model_dir + "\\DTA\\Demand\\TripList.csv"
     mode_filter = "Select * where (mode = 16 and jointTripRole <= 1)"
-    RunMacro("convert trip list", in_csv, out_csv, mode_filter, 10000000)
+    RunMacro("convert trip list", in_csv, out_csv, mode_filter, 10000000, "TAZ")
 
     // Convert the cartracker file
     in_csv = scen_dir + "\\CT-RAMP\\carTrack\\disaggregateCarUse_carTracker.csv"
     out_csv = model_dir + "\\DTA\\Demand\\disaggregateCarUse_carTracker.csv"
-    RunMacro("convert trip list", in_csv, out_csv, , 1)
+    RunMacro("convert trip list", in_csv, out_csv, , 1, "TAZ")
 
     // Convert DCOM list
     in_csv = scen_dir + "\\CT-RAMP\\dcom\\DCOMVehicleTrips.csv"
     out_csv = model_dir + "\\DTA\\Demand\\DCOMVehicleTrips.csv"
-    RunMacro("convert DCOM trip list", in_csv, out_csv )
+    RunMacro("convert DCOM trip list", in_csv, out_csv)
 
     // Run the DTA
     rm = CreateObject("TSM.RunManager")
