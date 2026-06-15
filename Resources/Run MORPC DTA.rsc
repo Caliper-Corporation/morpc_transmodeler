@@ -65,7 +65,7 @@ Macro "run_dta"
         rm.UnloadPathTables()
     end
     else if rm.LoadPathTables("Demand") then do
-        rm.SetSeedPathUpdates(0.5)
+        rm.SetDTASeedPathUpdates(0.5)
         end
     else do
             ShowMessage("Failed to load path tables from first iteration.")
