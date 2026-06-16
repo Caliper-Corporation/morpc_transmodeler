@@ -64,7 +64,7 @@ Macro "run_dta"
         rm.SetDTASeedDemand(0.5)
         rm.UnloadPathTables()
     end
-    else if rm.LoadPathTables("Demand") then do
+    else if rm.LoadPathTables("Demand", {"Method of Selection": "Path-Size Logit", "Path File Contains": "Given"}) then do
         rm.SetDTASeedPathUpdates(0.5)
         end
     else do
