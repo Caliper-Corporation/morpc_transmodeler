@@ -34,6 +34,7 @@ Macro "run_dta"
     model_dir = "E:\\models\\C10"
     dta_dir = model_dir + "\\TSM"
     ctramp_triplist_dir = model_dir + "\\ABM\\SCEN\\" + scenario_name + "\\" + region + "\\CT-RAMP\\Core"
+    ctramp_triplist_parent_dir = model_dir + "\\ABM\\SCEN\\" + scenario_name + "\\" + region + "\\CT-RAMP"
 
     // Convert the trip list into the format required by TransModeler
     // for morpc, only keep taxi trips from this file
@@ -43,12 +44,12 @@ Macro "run_dta"
     RunMacro("convert trip list", in_csv, out_csv, mode_filter, 10000000, "TAZ")
 
     // Convert the cartracker file
-    in_csv = ctramp_triplist_dir + "\\disaggregateCarUse_carTracker.csv"
+    in_csv = ctramp_triplist_parent_dir + "\\carTrack\\disaggregateCarUse_carTracker.csv"
     out_csv = dta_dir + "\\Demand\\disaggregateCarUse_carTracker.csv"
     RunMacro("convert trip list", in_csv, out_csv, , 1, "TAZ")
 
     // Convert DCOM list
-    in_csv = ctramp_triplist_dir + "\\DCOMVehicleTrips.csv"
+    in_csv = ctramp_triplist_parent_dir + "\\dcom\\DCOMVehicleTrips.csv"
     out_csv = dta_dir + "\\Demand\\DCOMVehicleTrips.csv"
     RunMacro("convert DCOM trip list", in_csv, out_csv)
 
