@@ -57,6 +57,7 @@ Macro "run_dta"
     rm.OpenSimulationProject(smp, )
     rm.SuppressAllWarnings()
     rm.SetSimulationRunMode("Dynamic Traffic Assignment")
+    rm.SetDTASeedIterations(25)
     if first_iteration then do
         rm.ClearWarningMessages()
         rm.ClearStatusMessages()
@@ -67,8 +68,8 @@ Macro "run_dta"
         rm.SetDTASeedPathUpdates(0.5)
         end
     else do
-            ShowMessage("Failed to load path tables from first iteration.")
-            goto quit
+        ShowMessage("Failed to load path tables from first iteration.")
+        goto quit
     end
     rm.RunSimulation()  // this will start the DTA
 
