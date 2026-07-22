@@ -57,20 +57,25 @@ Macro "run_dta"
     rm.OpenSimulationProject(smp, )
     rm.SuppressAllWarnings()
     rm.SetSimulationRunMode("Dynamic Traffic Assignment")
-    rm.SetDTASeedIterations(25)
+    rm.SetDTASettings({
+        "Path Update Threshold": 0,
+        "Seed Demand": 0.5,
+        "Seed Iterations": 15
+    })
+    rm.UnloadPathTables()
     if first_iteration then do
         rm.ClearWarningMessages()
         rm.ClearStatusMessages()
-        rm.SetDTASeedDemand(0.5)
-        rm.UnloadPathTables()
-    end
     else if rm.LoadPathTables("Demand", {"Method of Selection": "Path-Size Logit", "Path File Contains": "Given"}) then do
-        rm.SetDTASeedPathUpdates(0.5)
-        end
-    else do
-        ShowMessage("Failed to load path tables from first iteration.")
-        goto quit
     end
+    //else if rm.LoadPathTables("Demand", {"Method of Selection": "Path-Size Logit", "Path File Contains": "Given"}) then do
+    //    rm.SetDTASeedPathUpdates(0.5)
+    //    rm.SetDTASeedIterations(25)
+    //    end
+    //else do
+    //    ShowMessage("Failed to load path tables from first iteration.")
+    //    goto quit
+    //end
     rm.RunSimulation()  // this will start the DTA
 
     // Create dynamic skims
