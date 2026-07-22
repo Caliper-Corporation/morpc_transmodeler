@@ -66,7 +66,6 @@ Macro "run_dta"
     if first_iteration then do
         rm.ClearWarningMessages()
         rm.ClearStatusMessages()
-    else if rm.LoadPathTables("Demand", {"Method of Selection": "Path-Size Logit", "Path File Contains": "Given"}) then do
     end
     //else if rm.LoadPathTables("Demand", {"Method of Selection": "Path-Size Logit", "Path File Contains": "Given"}) then do
     //    rm.SetDTASeedPathUpdates(0.5)
@@ -215,13 +214,13 @@ Macro "convert trip list" (in_csv, out_csv, mode_filter, start_id, od_geography)
     data.Trip = input.uniqueid_2
     data.Origin = input.(oriField)
     data.Destination = input.(desField)
-    data.HH = input.hhid
-    if b_car_tracker then
-        data.DriverID = input.driverId
-    else
-        data.PersonNum = input.hhid * 100 + input.pnum
-    data.OriginPurpose = input.origPurp
-    data.DestinationPurpose = input.destPurp
+    //data.HH = input.hhid
+    //if b_car_tracker then
+    //    data.DriverID = input.driverId
+    //else
+    //    data.PersonNum = input.hhid * 100 + input.pnum
+    //data.OriginPurpose = input.origPurp
+    //data.DestinationPurpose = input.destPurp
     // TSM needs departure time in seconds after midnight.
     // Input departure times are in minutes after 3am
     data.DepartureTime = round(input.finalDeparture * 60, 1) + 10800 
@@ -277,11 +276,11 @@ Macro "convert trip list" (in_csv, out_csv, mode_filter, start_id, od_geography)
         {"Destination",        "Real",     8, 0, "False"},
         {"DepartureTime",      "Real",     8, 2, "False"},
         {"PreviousTrip",       "Real",     8, 0, "False"},
-        {"VOT",                "Real",     8, 2, "False"},
-        {"HH",                 "Integer", 16, 0, "False"},
-        {pnum_field_name,      "Integer", 16, 0, "False"},
-        {"OriginPurpose",      "Integer",  8, 0, "False"},
-        {"DestinationPurpose", "Integer",  8, 0, "False"}
+        {"VOT",                "Real",     8, 2, "False"}//,
+        //{"HH",                 "Integer", 16, 0, "False"},
+        //{pnum_field_name,      "Integer", 16, 0, "False"},
+        //{"OriginPurpose",      "Integer",  8, 0, "False"},
+        //{"DestinationPurpose", "Integer",  8, 0, "False"}
     }
     if field_names.position("party") > 0 then fields = fields + {{"Occupants", "Real", 4, 0, "False"}}
     if field_names.position("activityMinutesAtDest") > 0 then fields = fields + {{"ActivityDuration", "Real", 8, 2, "False"}}
@@ -311,7 +310,6 @@ Macro "convert trip list" (in_csv, out_csv, mode_filter, start_id, od_geography)
     CloseView(vw_out)
     return(True)
 EndMacro
-
 
 Macro "test convert DCOM trip list"
     on escape do return() end
