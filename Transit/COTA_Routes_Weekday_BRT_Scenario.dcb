@@ -1,0 +1,11 @@
+
+42,codepage=65001
+"Route_ID",I,1,4,0,10,0,,"","Unique Caliper ID of Route",,"Sum",
+"Route_Name",C,5,10,0,10,0,,"","",,"Copy",
+"Trip",I,15,4,0,10,0,,"","Unique Trip ID",,"Sum",
+"Sequence",I,19,4,0,10,0,,"","Sequence within Trip",,"Sum",
+"Time",F,23,4,0,10,2,,"","Arrival Time (minutes past midnight)",,"Sum",
+"Access",I,27,4,0,10,0,,"","Always 1",,"Sum",
+"Block",I,31,4,0,10,0,,"","Block ID",,"Sum",
+"Min_Time",I,35,4,0,10,0,,"","Start Time for Block (minutes past midnight)",,"Sum",
+"Stop_ID",I,39,4,0,10,0,,"","Stop ID",,"Sum",

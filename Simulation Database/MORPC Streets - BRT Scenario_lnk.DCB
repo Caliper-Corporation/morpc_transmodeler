@@ -1,0 +1,13 @@
+
+348,codepage=65001
+"ID",I,1,4,0,4,0,,"","",,"Sum",
+"Network",C,5,14,0,14,0,,"","Source database name",,"Copy",
+"Route_Name",C,19,8,0,8,0,,"","",,"Copy",
+"State",C,27,2,0,2,0,,"","",,"Copy",
+"TDM_FACTYPE",I,29,4,0,8,0,,"","",,"Copy",
+"Changed_FC",I,33,4,0,8,0,,"","",,"Copy",
+"WRA_NOTES",C,37,150,0,150,0,,"","",,"Copy",
+"WRA_FIXED",C,187,150,0,150,0,,"","",,"Copy",
+"Added_For_Transit",I,337,4,0,8,0,,"","",,"Copy",
+"Posted_Speed",I,341,4,0,8,0,,"","",,"Sum",
+"Free_Speed",I,345,4,0,8,0,,"","",,"Sum",

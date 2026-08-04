@@ -1,0 +1,105 @@
+Turning Movement Table, StartTime=00:00:00, IntervalLength=900, Periods=96, FirstValueField=Delay_0000
+412,codepage=65001
+"FromLink",I,1,4,0,10,0,,,"Upstream link ID",,Sum,,0x0004
+"Node",I,5,4,0,10,0,,,"Node ID",,Sum,,0x0004
+"ToLink",I,9,4,0,10,0,,,"Downstream link ID",,Sum,,0x0004
+"Dir",C,13,4,0,4,0,,,"Approach direction",,Sum,,0x0007
+"Type",C,17,4,0,4,0,,,"Turn movement type",,Sum,,0x0007
+"Facility",I,21,4,0,10,0,,,"Roundabout or Weaving Section node ID",,Sum,,0x0004
+"Delay_0000",F,25,4,0,7,1,,,"Average turning delay in seconds beginning at 00:00:00",,Sum,,0x0005
+"Delay_0015",F,29,4,0,7,1,,,"Average turning delay in seconds beginning at 00:15:00",,Sum,,0x0005
+"Delay_0030",F,33,4,0,7,1,,,"Average turning delay in seconds beginning at 00:30:00",,Sum,,0x0005
+"Delay_0045",F,37,4,0,7,1,,,"Average turning delay in seconds beginning at 00:45:00",,Sum,,0x0005
+"Delay_0100",F,41,4,0,7,1,,,"Average turning delay in seconds beginning at 01:00:00",,Sum,,0x0005
+"Delay_0115",F,45,4,0,7,1,,,"Average turning delay in seconds beginning at 01:15:00",,Sum,,0x0005
+"Delay_0130",F,49,4,0,7,1,,,"Average turning delay in seconds beginning at 01:30:00",,Sum,,0x0005
+"Delay_0145",F,53,4,0,7,1,,,"Average turning delay in seconds beginning at 01:45:00",,Sum,,0x0005
+"Delay_0200",F,57,4,0,7,1,,,"Average turning delay in seconds beginning at 02:00:00",,Sum,,0x0005
+"Delay_0215",F,61,4,0,7,1,,,"Average turning delay in seconds beginning at 02:15:00",,Sum,,0x0005
+"Delay_0230",F,65,4,0,7,1,,,"Average turning delay in seconds beginning at 02:30:00",,Sum,,0x0005
+"Delay_0245",F,69,4,0,7,1,,,"Average turning delay in seconds beginning at 02:45:00",,Sum,,0x0005
+"Delay_0300",F,73,4,0,7,1,,,"Average turning delay in seconds beginning at 03:00:00",,Sum,,0x0005
+"Delay_0315",F,77,4,0,7,1,,,"Average turning delay in seconds beginning at 03:15:00",,Sum,,0x0005
+"Delay_0330",F,81,4,0,7,1,,,"Average turning delay in seconds beginning at 03:30:00",,Sum,,0x0005
+"Delay_0345",F,85,4,0,7,1,,,"Average turning delay in seconds beginning at 03:45:00",,Sum,,0x0005
+"Delay_0400",F,89,4,0,7,1,,,"Average turning delay in seconds beginning at 04:00:00",,Sum,,0x0005
+"Delay_0415",F,93,4,0,7,1,,,"Average turning delay in seconds beginning at 04:15:00",,Sum,,0x0005
+"Delay_0430",F,97,4,0,7,1,,,"Average turning delay in seconds beginning at 04:30:00",,Sum,,0x0005
+"Delay_0445",F,101,4,0,7,1,,,"Average turning delay in seconds beginning at 04:45:00",,Sum,,0x0005
+"Delay_0500",F,105,4,0,7,1,,,"Average turning delay in seconds beginning at 05:00:00",,Sum,,0x0005
+"Delay_0515",F,109,4,0,7,1,,,"Average turning delay in seconds beginning at 05:15:00",,Sum,,0x0005
+"Delay_0530",F,113,4,0,7,1,,,"Average turning delay in seconds beginning at 05:30:00",,Sum,,0x0005
+"Delay_0545",F,117,4,0,7,1,,,"Average turning delay in seconds beginning at 05:45:00",,Sum,,0x0005
+"Delay_0600",F,121,4,0,7,1,,,"Average turning delay in seconds beginning at 06:00:00",,Sum,,0x0005
+"Delay_0615",F,125,4,0,7,1,,,"Average turning delay in seconds beginning at 06:15:00",,Sum,,0x0005
+"Delay_0630",F,129,4,0,7,1,,,"Average turning delay in seconds beginning at 06:30:00",,Sum,,0x0005
+"Delay_0645",F,133,4,0,7,1,,,"Average turning delay in seconds beginning at 06:45:00",,Sum,,0x0005
+"Delay_0700",F,137,4,0,7,1,,,"Average turning delay in seconds beginning at 07:00:00",,Sum,,0x0005
+"Delay_0715",F,141,4,0,7,1,,,"Average turning delay in seconds beginning at 07:15:00",,Sum,,0x0005
+"Delay_0730",F,145,4,0,7,1,,,"Average turning delay in seconds beginning at 07:30:00",,Sum,,0x0005
+"Delay_0745",F,149,4,0,7,1,,,"Average turning delay in seconds beginning at 07:45:00",,Sum,,0x0005
+"Delay_0800",F,153,4,0,7,1,,,"Average turning delay in seconds beginning at 08:00:00",,Sum,,0x0005
+"Delay_0815",F,157,4,0,7,1,,,"Average turning delay in seconds beginning at 08:15:00",,Sum,,0x0005
+"Delay_0830",F,161,4,0,7,1,,,"Average turning delay in seconds beginning at 08:30:00",,Sum,,0x0005
+"Delay_0845",F,165,4,0,7,1,,,"Average turning delay in seconds beginning at 08:45:00",,Sum,,0x0005
+"Delay_0900",F,169,4,0,7,1,,,"Average turning delay in seconds beginning at 09:00:00",,Sum,,0x0005
+"Delay_0915",F,173,4,0,7,1,,,"Average turning delay in seconds beginning at 09:15:00",,Sum,,0x0005
+"Delay_0930",F,177,4,0,7,1,,,"Average turning delay in seconds beginning at 09:30:00",,Sum,,0x0005
+"Delay_0945",F,181,4,0,7,1,,,"Average turning delay in seconds beginning at 09:45:00",,Sum,,0x0005
+"Delay_1000",F,185,4,0,7,1,,,"Average turning delay in seconds beginning at 10:00:00",,Sum,,0x0005
+"Delay_1015",F,189,4,0,7,1,,,"Average turning delay in seconds beginning at 10:15:00",,Sum,,0x0005
+"Delay_1030",F,193,4,0,7,1,,,"Average turning delay in seconds beginning at 10:30:00",,Sum,,0x0005
+"Delay_1045",F,197,4,0,7,1,,,"Average turning delay in seconds beginning at 10:45:00",,Sum,,0x0005
+"Delay_1100",F,201,4,0,7,1,,,"Average turning delay in seconds beginning at 11:00:00",,Sum,,0x0005
+"Delay_1115",F,205,4,0,7,1,,,"Average turning delay in seconds beginning at 11:15:00",,Sum,,0x0005
+"Delay_1130",F,209,4,0,7,1,,,"Average turning delay in seconds beginning at 11:30:00",,Sum,,0x0005
+"Delay_1145",F,213,4,0,7,1,,,"Average turning delay in seconds beginning at 11:45:00",,Sum,,0x0005
+"Delay_1200",F,217,4,0,7,1,,,"Average turning delay in seconds beginning at 12:00:00",,Sum,,0x0005
+"Delay_1215",F,221,4,0,7,1,,,"Average turning delay in seconds beginning at 12:15:00",,Sum,,0x0005
+"Delay_1230",F,225,4,0,7,1,,,"Average turning delay in seconds beginning at 12:30:00",,Sum,,0x0005
+"Delay_1245",F,229,4,0,7,1,,,"Average turning delay in seconds beginning at 12:45:00",,Sum,,0x0005
+"Delay_1300",F,233,4,0,7,1,,,"Average turning delay in seconds beginning at 13:00:00",,Sum,,0x0005
+"Delay_1315",F,237,4,0,7,1,,,"Average turning delay in seconds beginning at 13:15:00",,Sum,,0x0005
+"Delay_1330",F,241,4,0,7,1,,,"Average turning delay in seconds beginning at 13:30:00",,Sum,,0x0005
+"Delay_1345",F,245,4,0,7,1,,,"Average turning delay in seconds beginning at 13:45:00",,Sum,,0x0005
+"Delay_1400",F,249,4,0,7,1,,,"Average turning delay in seconds beginning at 14:00:00",,Sum,,0x0005
+"Delay_1415",F,253,4,0,7,1,,,"Average turning delay in seconds beginning at 14:15:00",,Sum,,0x0005
+"Delay_1430",F,257,4,0,7,1,,,"Average turning delay in seconds beginning at 14:30:00",,Sum,,0x0005
+"Delay_1445",F,261,4,0,7,1,,,"Average turning delay in seconds beginning at 14:45:00",,Sum,,0x0005
+"Delay_1500",F,265,4,0,7,1,,,"Average turning delay in seconds beginning at 15:00:00",,Sum,,0x0005
+"Delay_1515",F,269,4,0,7,1,,,"Average turning delay in seconds beginning at 15:15:00",,Sum,,0x0005
+"Delay_1530",F,273,4,0,7,1,,,"Average turning delay in seconds beginning at 15:30:00",,Sum,,0x0005
+"Delay_1545",F,277,4,0,7,1,,,"Average turning delay in seconds beginning at 15:45:00",,Sum,,0x0005
+"Delay_1600",F,281,4,0,7,1,,,"Average turning delay in seconds beginning at 16:00:00",,Sum,,0x0005
+"Delay_1615",F,285,4,0,7,1,,,"Average turning delay in seconds beginning at 16:15:00",,Sum,,0x0005
+"Delay_1630",F,289,4,0,7,1,,,"Average turning delay in seconds beginning at 16:30:00",,Sum,,0x0005
+"Delay_1645",F,293,4,0,7,1,,,"Average turning delay in seconds beginning at 16:45:00",,Sum,,0x0005
+"Delay_1700",F,297,4,0,7,1,,,"Average turning delay in seconds beginning at 17:00:00",,Sum,,0x0005
+"Delay_1715",F,301,4,0,7,1,,,"Average turning delay in seconds beginning at 17:15:00",,Sum,,0x0005
+"Delay_1730",F,305,4,0,7,1,,,"Average turning delay in seconds beginning at 17:30:00",,Sum,,0x0005
+"Delay_1745",F,309,4,0,7,1,,,"Average turning delay in seconds beginning at 17:45:00",,Sum,,0x0005
+"Delay_1800",F,313,4,0,7,1,,,"Average turning delay in seconds beginning at 18:00:00",,Sum,,0x0005
+"Delay_1815",F,317,4,0,7,1,,,"Average turning delay in seconds beginning at 18:15:00",,Sum,,0x0005
+"Delay_1830",F,321,4,0,7,1,,,"Average turning delay in seconds beginning at 18:30:00",,Sum,,0x0005
+"Delay_1845",F,325,4,0,7,1,,,"Average turning delay in seconds beginning at 18:45:00",,Sum,,0x0005
+"Delay_1900",F,329,4,0,7,1,,,"Average turning delay in seconds beginning at 19:00:00",,Sum,,0x0005
+"Delay_1915",F,333,4,0,7,1,,,"Average turning delay in seconds beginning at 19:15:00",,Sum,,0x0005
+"Delay_1930",F,337,4,0,7,1,,,"Average turning delay in seconds beginning at 19:30:00",,Sum,,0x0005
+"Delay_1945",F,341,4,0,7,1,,,"Average turning delay in seconds beginning at 19:45:00",,Sum,,0x0005
+"Delay_2000",F,345,4,0,7,1,,,"Average turning delay in seconds beginning at 20:00:00",,Sum,,0x0005
+"Delay_2015",F,349,4,0,7,1,,,"Average turning delay in seconds beginning at 20:15:00",,Sum,,0x0005
+"Delay_2030",F,353,4,0,7,1,,,"Average turning delay in seconds beginning at 20:30:00",,Sum,,0x0005
+"Delay_2045",F,357,4,0,7,1,,,"Average turning delay in seconds beginning at 20:45:00",,Sum,,0x0005
+"Delay_2100",F,361,4,0,7,1,,,"Average turning delay in seconds beginning at 21:00:00",,Sum,,0x0005
+"Delay_2115",F,365,4,0,7,1,,,"Average turning delay in seconds beginning at 21:15:00",,Sum,,0x0005
+"Delay_2130",F,369,4,0,7,1,,,"Average turning delay in seconds beginning at 21:30:00",,Sum,,0x0005
+"Delay_2145",F,373,4,0,7,1,,,"Average turning delay in seconds beginning at 21:45:00",,Sum,,0x0005
+"Delay_2200",F,377,4,0,7,1,,,"Average turning delay in seconds beginning at 22:00:00",,Sum,,0x0005
+"Delay_2215",F,381,4,0,7,1,,,"Average turning delay in seconds beginning at 22:15:00",,Sum,,0x0005
+"Delay_2230",F,385,4,0,7,1,,,"Average turning delay in seconds beginning at 22:30:00",,Sum,,0x0005
+"Delay_2245",F,389,4,0,7,1,,,"Average turning delay in seconds beginning at 22:45:00",,Sum,,0x0005
+"Delay_2300",F,393,4,0,7,1,,,"Average turning delay in seconds beginning at 23:00:00",,Sum,,0x0005
+"Delay_2315",F,397,4,0,7,1,,,"Average turning delay in seconds beginning at 23:15:00",,Sum,,0x0005
+"Delay_2330",F,401,4,0,7,1,,,"Average turning delay in seconds beginning at 23:30:00",,Sum,,0x0005
+"Delay_2345",F,405,4,0,7,1,,,"Average turning delay in seconds beginning at 23:45:00",,Sum,,0x0005
+"Delay",F,409,4,0,7,1,,,"Summary average turning delay in seconds",,Sum,,0x0005
